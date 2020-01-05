@@ -1,2 +1,2 @@
 # algo_ed
-Repository for Studies on Design and Algorithm Analyzis and Advanced Data Estructur
+Estudos de Projeto e Análise de Algoritmos e Estruturas de Dados Avançada
