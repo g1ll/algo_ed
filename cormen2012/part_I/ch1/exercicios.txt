@@ -1,0 +1,32 @@
+Cormen 2012
+
+Exercícios Cap1
+
+Ex. 1.1-1
+	Cite um exemplo real que exija ordenação ou um exemplo real que exija o cálculo de uma envoltória convexa.
+	
+Resp.
+	    Exemplo para ordenação seria um algoritmo para apresentar a classificação de uma 
+    equipe ou time em um campeonato de acordo com a pontuação obtida durante a competição.
+	Como exemplo de envoltória convexa poderia ser considerado um algoritmo que resolvesse
+    a menor rota a ser percorrida por um carteiro para entregar todas as cartas em todas
+    casas do seu setor e voltar a central de distribuição.
+
+Ex. 1.1-2 
+	    Além da velocidade, que outras medidas de eficiência poderiam ser usadas em uma 
+    configuração real?
+
+Resp. A quantidade total de memória utilizada pelo algoritmo para realizar a tarefa. 
+Além de velocidade um algoritmo pode ser eficiente pela minimização do uso dos recursos 
+computacionais. 
+
+Ex. 1.1-3 Selecione uma estrutura de dados que você já tenha visto antes e discuta seus 
+pontos fortes e suas limitações.
+
+
+
+
+
+
+	
+
