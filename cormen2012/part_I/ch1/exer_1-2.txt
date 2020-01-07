@@ -1,0 +1,47 @@
+Cormen 2012
+
+Exercícios Cap1
+=======================================================================================
+1.2 Algoritmos como Tecnologia
+
+Ex. 1.2-1
+	Cite um exemplo de aplicação que exige conteúdo algorítmico no nível da aplicação
+e discuta a função dos algoritmos envolvidos.
+	
+Resp.
+    Um exemplo de aplicação que faça uso de conteúdo algorítmico pode ser por exemplo
+ uma aplicação de controle de estoque, com acesso a bancos de dados, e que necessite 
+ ordenar os produtos por seus códigos de identificação ou quantidade em estoque. Ou seja,
+ no nível da aplicação veremos uso de algorítmos de ordenação. Na maioria dos casos estes
+ algoritmos são implementados pelo Banco de Dados. E o próprio servidor de Banco de Dados
+ faz uso intensivo de algorítmos diversos, como ordenação, busca, contagem e etc...
+
+Ex. 1.2-2
+    Suponha que estamos comparando implementações de ordenação por inserção e ordenação por
+intercalação na mesma máquina. Para entradas de tamanho n, a ordenação por inserção é 
+executada em 8n2 passos, enquanto a ordenação por intercalação é executada em 64n lg n passos.
+Para quais valores de n a ordenação por inserção supera a ordenação por intercalação?
+
+Resp. 
+    insercao    = c1*n²     c1 = 8  -> 8n² 
+    intercala   = c2*nlogn  c2 = 64 -> 64nlogn
+
+    8n² >  64nlogn
+    n²  >  (64nlon)/8
+    n²  >  8nlogn???
+
+
+
+n = 10
+8*10²       = 800
+64×10×log10 = 640
+n = 8
+8*8²        = 512
+64×8×log8   ≃ 462
+n = 7
+8*7²        = 392
+64×7×log7   ≃ 378
+n = 6
+8*6²        = 288
+64×6×log6   ≃ 298
+
