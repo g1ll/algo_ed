@@ -5,13 +5,6 @@
 % máquina?
 
 format shortG
-function t = f1(n) 
-    t=100*n^2;
-end
-
-function t = f2(n) 
-    t=2^n;
-end
 
 t1=0;
 t2=0;
@@ -28,6 +21,14 @@ if t1 ~= inf &&  t2 ~= inf
     fprintf("\nn=%d\nt1=%.3f\n",[n t1]);
 else
     fprintf("\nT2=Infinito!\n");
+end
+
+function t = f1(n) 
+    t=100*n^2;
+end
+
+function t = f2(n) 
+    t=2^n;
 end
 
 
