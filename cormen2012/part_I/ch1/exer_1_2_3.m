@@ -23,6 +23,7 @@ while t1>=t2 && t1 ~= inf &&  t2 ~= inf
     t2=f2(n);
     fprintf("\n%d\t%15.3f\t%15.3f",[n t1 t2]);
 end
+
 if t1 ~= inf &&  t2 ~= inf
     fprintf("\nn=%d\nt1=%.3f\n",[n t1]);
 else
