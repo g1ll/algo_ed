@@ -1,7 +1,7 @@
 Cormen 2012
 
 Exercícios Cap1
-=======================================================================================
+================================================================================
 1.2 Algoritmos como Tecnologia
 
 Ex. 1.2-1
@@ -19,29 +19,60 @@ Resp.
 Ex. 1.2-2
     Suponha que estamos comparando implementações de ordenação por inserção e ordenação por
 intercalação na mesma máquina. Para entradas de tamanho n, a ordenação por inserção é 
-executada em 8n2 passos, enquanto a ordenação por intercalação é executada em 64n lg n passos.
+executada em 8n² passos, enquanto a ordenação por intercalação é executada em 64nlgn passos.
 Para quais valores de n a ordenação por inserção supera a ordenação por intercalação?
 
 Resp. 
     insercao    = c1*n²     c1 = 8  -> 8n² 
     intercala   = c2*nlogn  c2 = 64 -> 64nlogn
+    n0 = ? -> 8n² -> Ω(64nlogn) -> n>=n0
+    8n² >= 64nlogn      logn >=1 -> n>=2
+    8n*n >= 64n*logn
+    8n²-64nlogn >= 0
+    8n-64logn >= 0 ???
 
-    8n² >  64nlogn
-    n²  >  (64nlon)/8
-    n²  >  8nlogn???
 
+log = log(base 2)
 
+Por indução n0 >=44
+n=100
+8*100²          = 80000
+64*100*log100   ≃ 42520 
+
+n = 44  
+8*44²           = 15488
+64*44*log44     ≃ 15373 
+
+n = 43
+8*43²           = 14792
+64*43*log43     ≃ 14933
 
 n = 10
 8*10²       = 800
-64×10×log10 = 640
+64×10×log10 = 2126
 n = 8
 8*8²        = 512
-64×8×log8   ≃ 462
+64×8×log8   ≃ 1536
 n = 7
-8*7²        = 392
-64×7×log7   ≃ 378
+8*7²        = 392 
+64*7×log7   ≃ 1257
 n = 6
 8*6²        = 288
-64×6×log6   ≃ 298
+64×6×log6   ≃ 992
 
+
+
+Ex. 1.2-3
+
+Qual é o menor valor de n tal que um algoritmo cujo tempo de execução é 100n²
+funciona mais rapidamente que um algoritmo cujo tempo de execução é 2ⁿ na mesma
+máquina?
+
+Resp
+
+Provar 100n² < 2ⁿ n >= n₀ 
+n₀ = ??
+
+Por substituição
+n=100
+100*100²    = 
