@@ -2,6 +2,8 @@ Cormen 2012
 
 Exercícios Cap1
 
+1.1 Fundamentos
+
 Ex. 1.1-1
 	Cite um exemplo real que exija ordenação ou um exemplo real que exija o cálculo de uma
      envoltória convexa.
@@ -24,8 +26,8 @@ computacionais.
 Ex. 1.1-3 Selecione uma estrutura de dados que você já tenha visto antes e discuta seus 
 pontos fortes e suas limitações.
 
-Resp. Um vetor é um exemplo de estrutura de dados, nele os elementos são dispostos por
-índices, sendo possível acessar cada elemento separadamento através deste índice. 
+Resp. Um vetor é um exemplo de estrutura de dados simples, nele os elementos são dispostos por
+índices sequenciais, sendo possível acessar cada elemento separadamento através destes índices. 
 A vantagem é poder armazenar em uma mesma variável vários valores diferentes. A principal
 limitação é que na maioria das linguagens são estruturas de apenas um tipo de dados.
 
@@ -37,6 +39,7 @@ eficientes para resolvê-los. Ambos apresenta várias soluções possíveis e a 
 solução requer um esforço significativo computacionalmente. Porém estes dois problemas divergem em 
 relação ao resultado final do algoritmo, enquanto o primeiro é possível se obter de forma eficiente 
 a menor distância, o segundo é um problema da classe NP-completo, e demanda algoritmos de aproximação.
+Ou seja, algoritmo que retornam uma  solução muito próxima a melhor.
 
 Ex. 1.1-5 Mostre um problema real no qual apenas a melhor solução servirá. Em seguida, apresente um
 problema em que baste uma solução que seja “aproximadamente” a melhor.
@@ -44,7 +47,7 @@ problema em que baste uma solução que seja “aproximadamente” a melhor.
 Resp. O problema da menor distância entre dois destinos rodoviários é um exemplo de problema onde apenas
 a melhor solução é válida. Por outro lado, a aplicação prática do problema do "caxeiro viajante" como no exemplo
 de uma entregadora de mercadorias onde o caminhão deverá acessar  diferentes pontos da cidade
-e voltar para a central distribuidora, é um tipo de problema NP-completo onde a soluçõa 
+e voltar para a central de distribuição, é um tipo de problema NP-completo onde a soluçõa 
 aproximada é válida e mais conveniente.
 
 
