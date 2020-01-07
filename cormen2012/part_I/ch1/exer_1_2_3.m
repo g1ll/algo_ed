@@ -5,27 +5,28 @@
 % máquina?
 
 format shortG
+function t = f1(n) 
+    t=100*n^2;
+end
+
+function t = f2(n) 
+    t=2^n;
+end
 
 t1=0;
 t2=0;
-n=100;
-while t1<=t2 && t2 ~= inf
+n=0;
+fprintf("\nn\t\tt1\t\tt2",[n t1 t2]);
+while t1>=t2 && t1 ~= inf &&  t2 ~= inf
+    n=n+1;
     t1=f1(n);
     t2=f2(n);
-    n=n+1;
     fprintf("\n%d\t%15.3f\t%15.3f",[n t1 t2]);
 end
-if t2~=inf
+if t1 ~= inf &&  t2 ~= inf
     fprintf("\nn=%d\nt1=%.3f\n",[n t1]);
 else
     fprintf("\nT2=Infinito!\n");
 end
 
 
-function t = f1(n) 
-        t=100*n^2;
-end
-
-function t = f2(n) 
-        t=2^n;
-end

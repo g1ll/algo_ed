@@ -60,8 +60,6 @@ n = 6
 8*6²        = 288
 64×6×log6   ≃ 992
 
-
-
 Ex. 1.2-3
 
 Qual é o menor valor de n tal que um algoritmo cujo tempo de execução é 100n²
@@ -70,9 +68,7 @@ máquina?
 
 Resp
 
-Provar 100n² < 2ⁿ n >= n₀ 
+Provar 100n² < 2ⁿ n <= n₀ 
 n₀ = ??
-
-Por substituição
-n=100
-100*100²    = 
+n₀ = 15
+Qualquer valor de n <= 15 o algoritmo de tempo 100n² < 2ⁿ
