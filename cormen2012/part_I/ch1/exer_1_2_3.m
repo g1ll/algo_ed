@@ -5,6 +5,7 @@
 % máquina?
 
 format shortG
+more off
 
 t1=0;
 t2=0;

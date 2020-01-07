@@ -6,7 +6,7 @@
 % Para quais valores de n a ordenação por inserção supera a ordenação por intercalação?
 
 format shortG
-
+more off
 t1=0;
 t2=0;
 n=10;
