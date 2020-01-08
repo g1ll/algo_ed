@@ -7,6 +7,7 @@
 %
 % 
 % 8n² < 64nlgn => n < 8nlgn => 2<n<43
+% 8n² > 64nlgn => n > 8nlgn => n >= 44
 
 
 format shortG

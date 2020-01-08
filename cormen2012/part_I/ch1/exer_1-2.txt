@@ -31,10 +31,12 @@ Resp.
     8n²-64nlogn >= 0
     8n-64logn >= 0 ???
 
-
 log = log(base 2)
 
-Por indução n0 >=44
+Por indução:
+ 8n² < 64nlgn => n < 8nlgn => 2<n<43
+ 8n² > 64nlgn => n > 8nlgn => n >= 44
+
 n=100
 8*100²          = 80000
 64*100*log100   ≃ 42520 
