@@ -1,9 +1,9 @@
 % Ex. 1.2-3
 
 % Qual é o menor valor de n tal que um algoritmo cujo tempo de execução é 100n²
-% funciona mais rapidamente que um algoritmo cujo tempo de execução é 2n na mesma
+% funciona mais rapidamente que um algoritmo cujo tempo de execução é 2^(n) na mesma
 % máquina?
-
+%Resp. O menor valor é 15
 format shortG
 more off
 
