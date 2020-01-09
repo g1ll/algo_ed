@@ -28,8 +28,8 @@ Resp.
    
 log = log(base 2)
 
- 8n² < 64nlgn => n < 8nlgn => n < 2^(8/n) => 2<n<43
- 8n² > 64nlgn => n > 8nlgn => n > 2^(8/n) => n >= 44   
+ 8n² < 64nlgn => n < 8lgn => n < 2^(8/n) => 2<n<43
+ 8n² > 64nlgn => n > 8lgn => n > 2^(8/n) => n >= 44   
 
 Por indução:
 
