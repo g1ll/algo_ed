@@ -23,15 +23,18 @@ executada em 8n² passos, enquanto a ordenação por intercalação é executada
 Para quais valores de n a ordenação por inserção supera a ordenação por intercalação?
 
 Resp. 
+    Para valores de 2 < n < 43 a ordenação por inserção é mais rápida do que a ordenação por
+intercalação (merg sort)
+
     insercao    = c1*n²     c1 = 8  -> 8n² 
     intercala   = c2*nlogn  c2 = 64 -> 64nlogn
    
 log = log(base 2)
 
- 8n² < 64nlgn => n < 8lgn => n < 2^(8/n) => 2<n<43
- 8n² > 64nlgn => n > 8lgn => n > 2^(8/n) => n >= 44   
+ 8n² < 64nlgn => n < 8lgn => n < 2^(8/n) => n >= 44 
+ 8n² > 64nlgn => n > 8lgn => n > 2^(8/n) => 2< n <43   
 
-Por indução:
+Por substituição de valores:
 
 n=100
 8*100²          = 80000
