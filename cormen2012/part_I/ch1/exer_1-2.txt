@@ -42,7 +42,7 @@ n=100
 
 n = 44  
 8*44²           = 15488
-64*44*log44     ≃ 15373 
+64*44*log44     ≃ 15373
 
 n = 43
 8*43²           = 14792
@@ -73,7 +73,6 @@ Provar 100n² < 2ⁿ n >= n₀
 n₀ = ??
 n₀ = 16
 Qualquer valor de n >= 16 o algoritmo de tempo 100n² < 2ⁿ
-
 
 Problema 1-1
 
