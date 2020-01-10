@@ -71,8 +71,8 @@ Resp
 
 Provar 100n² < 2ⁿ n >= n₀ 
 n₀ = ??
-n₀ = 16
-Qualquer valor de n >= 16 o algoritmo de tempo 100n² < 2ⁿ
+n₀ = 15
+Qualquer valor de n >= 15 o algoritmo de tempo 100n² < 2ⁿ
 
 Problema 1-1
 
@@ -80,5 +80,10 @@ Para cada função f(n) e cada tempo t na tabela a seguir, determine o maior tam
 de um problema que pode ser resolvido no tempo t, considerando que o algoritmo para 
 resolver o problema demore f(n) microssegundos.
 
-func    1 segundo   1 min   1 hora  1 dia   1 mês   1 ano   1 século
-lgn      n=
+func    1 segundo   1 min       1 hora          1 dia           1 mês               
+lgn     n=2^(10^6)  2^(6*10^7)  2^(36*10^7)     2^(864*10^7)    2^(2592*10^8)  
+        1 ano                   1 século
+lgn     2^(31104*10^8)          2^(31104*10^9)
+
+        1 segundo   1 min       1 hora          1 dia           1 mês               
+sqrt(n) n=10^12     36*10^14
